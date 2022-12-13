@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="reset.css" />
+    <title>Pepsi WebPage</title>
+  </head>
+  <body>
+    <section class="sec">
+      <header class="cabecalho">
+        <a href="#"
+          ><img src="assets/logo.png" alt="Logo Pepsi" class="logo-pepsi"
+        /></a>
+        <ul class="lista">
+          <li class="item-lista">Home</li>
+          <li class="item-lista">Products</li>
+          <li class="item-lista">What's New</li>
+          <li class="item-lista">Newsletter</li>
+          <li class="item-lista">Contact</li>
+        </ul>
+      </header>
+      <main class="corpo">
+        <div class="principal-conteudo">
+          <h1 class="titulo-principal">
+            THAT'S WHAT<br/> I LIKE
+          </h1>
+          <p class="paragrafo-principal">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <button class="botao-principal">View All Products</button>
+        </div>
+        <div class="div-foto-principal">
+          <img
+            src="assets/pepsi001.png"
+            alt=""
+            class="foto-principal"
+            id="pepsi-principal"
+          />
+          <div class="links">
+            <a href="#" class="facebook-a"
+              ><img src="assets/facebook.png" alt="" class="social"
+            /></a>
+            <a href="#"
+              ><img src="assets/twitter.png" alt="" class="social"
+            /></a>
+            <a href="#"
+              ><img src="assets/instagram.png" alt="" class="social"
+            /></a>
+          </div>
+        </div>
+        <div class="bottom-side">
+          <button
+            class="botao-pepsi"
+            onclick="changeimg('assets/pepsi001.png'); changebg('#0062be')"
+          >
+            <img
+              src="assets/pepsi001.png"
+              alt=""
+              class="pepsi-mini"
+              id="pepsi-azul"
+            />
+          </button>
+          <button
+            class="botao-pepsi"
+            onclick="changeimg('assets/pepsi002.png');  changebg('#e60c2c')"
+          >
+            <img
+              src="assets/pepsi002.png"
+              alt=""
+              class="pepsi-mini"
+              id="pepsi-branca"
+            />
+          </button>
+          <button
+            class="botao-pepsi"
+            onclick="changeimg('assets/pepsi003.png'); changebg('#1e1e1e')"
+          >
+            <img
+              src="assets/pepsi003.png"
+              alt=""
+              class="pepsi-mini"
+              id="pepsi-preta"
+            />
+          </button>
+        </div>
+      </main>
+    </section>
+    <script src="app.js"></script>
+  </body>
+</html>

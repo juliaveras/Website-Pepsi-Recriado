@@ -1,0 +1,136 @@
+:root {
+  --blue: #0062be;
+  --white: #faf0e6;
+}
+
+body {
+  background-color: var(--blue);
+}
+
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 16px;
+  margin: 0 30px 0 30px;
+}
+.lista {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  color: var(--white);
+  
+}
+.item-lista {
+  padding: 8px;
+  cursor: pointer;
+}
+.logo-pepsi {
+  align-items: center;
+  width: 80%;
+}
+
+.corpo{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  
+}
+
+
+.principal-conteudo{
+  display: flex;
+  flex-direction: column;
+  margin: 100px 0 0 50px;
+  grid-column: span 2;
+}  
+
+.titulo-principal {
+  font-size: 110px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: var(--white);
+  text-transform: uppercase;
+}  
+.paragrafo-principal {
+  font-size: 24px;
+  padding: 8px;
+  width: 70%;
+  line-height: 1.2;
+  font-family: 'Poppins', sans-serif;
+  color: var(--white);
+  margin-top: 16px;
+}  
+.botao-principal {
+  width: 25%;
+  height: 50px;
+  margin-top: 16px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: black;
+  border-radius: 40px;
+  border-color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}  
+
+.div-foto-principal{
+  padding: 100px 0 100px 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-content: center;
+}
+
+.side-menu {
+  margin: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.links {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-content: center;
+ padding-left: 100px;
+ margin-right: 50px;
+
+}
+.facebook-a {
+  display: flex;
+  justify-content: center;
+} 
+
+.social  {
+  filter: invert(1);
+  padding: 16px;
+}
+
+.social:hover{
+  transform: scale(0.8)
+}
+.bottom-side {
+  grid-column: span 3;
+  justify-self: center;
+}
+
+.pepsi-mini {
+  width: 50px;
+  cursor: pointer;
+ 
+}
+
+.botao-pepsi {
+  background-color: transparent;
+  border-color: transparent;
+  width: 50px;
+  height: 50px;
+  
+}
+.pepsi-mini:hover{
+  transform: translateY(-25%);
+  transition: 0.5s;
+}
